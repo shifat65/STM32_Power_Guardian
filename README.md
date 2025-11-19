@@ -20,6 +20,14 @@ The firmware uses:
 
 ---
 
+## **Summary Logic**
+
+Overload Happens → Alert ON → Start Timer → If overload stays until timer ends → Power OFF.
+If load returns to normal → Timer resets + Power stays ON.
+Emergency Button → Overrides everything → Forces both power ON for fixed period.
+
+---
+
 ## **Key Features**
 
 ### **1. Overload Monitoring**
@@ -41,12 +49,6 @@ The firmware uses:
   * Alerts turn OFF
   * Power stays ON
 
----
-
-## **Summary Logic**
-Overload Happens → Alert ON → Start Timer → If overload stays until timer ends → Power OFF.
-If load returns to normal → Timer resets + Power stays ON.
-Emergency Button → Overrides everything → Forces both power ON for fixed period.
 ---
 
 ### **2. Emergency Override**
@@ -158,6 +160,7 @@ Can be modified for longer shutdown thresholds (e.g., 120 seconds).
 MIT License — Open to modify and use.
 
 ---
+
 
 
 
